@@ -1,6 +1,13 @@
-import { Button } from "./components/ui/button" 
-import { Card, CardContent } from "./components/ui/card" 
-import { Zap, CheckCircle, BarChart, Users, Target, MessageSquare } from "lucide-react"
+import { Button } from "./components/ui/button";
+import { Card, CardContent } from "./components/ui/card";
+import {
+  Zap,
+  CheckCircle,
+  BarChart,
+  Users,
+  Target,
+  MessageSquare,
+} from "lucide-react";
 
 export default function App() {
   return (
@@ -11,7 +18,11 @@ export default function App() {
           <Zap className="h-8 w-8 text-yellow-400" />
           <span className="text-2xl font-bold">XAUUSD Signals</span>
         </div>
-        <a href="https://t.me/mrzyvl7" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://t.me/mrzyvl7"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Button className="bg-emerald-500 hover:bg-emerald-600 text-white px-4 py-2 rounded-full text-sm font-semibold flex items-center gap-1">
             <CheckCircle className="h-4 w-4" />
             FREE TO JOIN
@@ -28,11 +39,14 @@ export default function App() {
 
         {/* Main Title */}
         <h1 className="text-4xl font-extrabold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl/none text-white drop-shadow-lg">
-          Premium <span className="text-yellow-400">XAUUSD</span> Trading Signals
+          Premium <span className="text-yellow-400">XAUUSD</span> Trading
+          Signals
         </h1>
 
         {/* Subtitle */}
-        <p className="text-gray-300 text-base md:text-lg">Join 15,000+ traders • 85% Win Rate • Real-time alerts</p>
+        <p className="text-gray-300 text-base md:text-lg">
+          Join 15,000+ traders • 85% Win Rate • Real-time alerts
+        </p>
 
         {/* Statistics */}
         <div className="flex  flex-row justify-center gap-8 md:gap-16 text-center">
@@ -87,7 +101,11 @@ export default function App() {
         </div>
 
         {/* Main CTA Button */}
-        <a href="https://t.me/mrzyvl7" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://t.me/mrzyvl7"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg font-bold rounded-lg shadow-lg transition-transform transform hover:scale-105">
             <CheckCircle className="h-5 w-5 mr-2" /> Join Telegram Channel FREE
           </Button>
@@ -119,12 +137,18 @@ export default function App() {
       </a>
 
       {/* Background Image (standard img tag) */}
-      <img
-        src="/placeholder.svg?height=1080&width=1920"
-        alt="Abstract Financial Background"
-        className="absolute inset-0 z-0 w-full h-full object-cover opacity-30"
-      />
+
     </div>
-  )
+  );
 }
 
+{
+  /*
+  git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mirzayevmuhammad/xauusd-signals.git
+git push -u origin main
+  */
+}
