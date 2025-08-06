@@ -4,7 +4,7 @@ import {  BarChart, Users, Target, User } from "lucide-react";
 
 export default function App() {
   return (
-    <div className="relative  sm:h-[1200px] h-[950px] w-full flex flex-col bg-[#000000] text-white ">
+    <div className="relative  sm:h-[100vh] h-[950px] w-full flex flex-col bg-[#000000] text-white ">
       {/* Header */}
       <header className="flex items-center justify-between p-4 md:p-6 z-20 gap-x-7">
         <div className="flex items-center space-x-2">
