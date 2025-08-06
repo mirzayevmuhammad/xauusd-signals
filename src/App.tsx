@@ -4,7 +4,7 @@ import {  BarChart, Users, Target, User } from "lucide-react";
 
 export default function App() {
   return (
-    <div className="relative h-[100vh] w-full flex flex-col bg-[#000000] text-white ">
+    <div className="relative  sm:h-[1200px] h-[950px] w-full flex flex-col bg-[#000000] text-white ">
       {/* Header */}
       <header className="flex items-center justify-between p-4 md:p-6 z-20 gap-x-7">
         <div className="flex items-center space-x-2">
@@ -24,7 +24,7 @@ export default function App() {
       {/* Main Content Area */}
       <main className="relative z-20 flex flex-col items-center justify-center text-center flex-grow p-4 sm:p-6 lg:p-8 space-y-8">
         {/* Badge */}
-        <div className="bg-black text-white border-2 border-white text-md font-bold px-7 py-2 rounded-full mb-4 ">
+        <div className="bg-black text-white border-r-2 border-l-2 box1  border-white text-md font-bold px-7 py-2 rounded-full mb-4 ">
           #1 THE MIDONE TRADE
         </div>
 
@@ -69,15 +69,15 @@ export default function App() {
 
         {/* Bottom Features */}
         <div className="flex flex-col sm:flex-row justify-center gap-6 md:gap-12 text-center text-gray-300 text-sm">
-          <div className="flex items-center gap-2 border-b-2 border-r-2 border-l-2 p-2 rounded-full  box ">
+          <div className="flex items-center gap-2 border-b-2 border-r-2 border-l-2 p-2 rounded-full  box hover:border-t-2 hover:border-b-0 transition-all cursor-default">
             <Target className="h-5 w-5 text-white " />
             <span>High Accuracy</span>
           </div>
-          <div className="flex items-center gap-2 border-b-2 border-r-2 border-l-2 p-2 rounded-full  box ">
+          <div className="flex items-center gap-2 border-b-2 border-r-2 border-l-2 p-2 rounded-full  box hover:border-t-2 hover:border-b-0 transition-all cursor-default ">
             <BarChart className="h-5 w-5 text-white " />
             <span>Technical Analysis</span>
           </div>
-          <div className="flex items-center gap-2 border-b-2 border-r-2 border-l-2 p-2 rounded-full box ">
+          <div className="flex items-center gap-2 border-b-2 border-r-2 border-l-2 p-2 rounded-full box hover:border-t-2 hover:border-b-0 transition-all cursor-default">
             <Users className="h-5 w-5 text-white " />
             <span>Active Community</span>
           </div>
@@ -89,7 +89,7 @@ export default function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Button className=" box text-white px-5 py-3 border-b-2 border-r-2 border-l-2   text-lg font-bold rounded-full shadow-lg transition-transform transform hover:scale-105">
+          <Button className=" box text-white px-5 py-3 border-b-2 border-r-2 border-l-2   text-lg font-semibold rounded-full shadow-lg transform hover:scale-110 hover:border-t-2 hover:border-b-0 transition-all">
             <User className="h-5 w-5 mr-2" /> ADMIN
           </Button>
         </a>
@@ -102,7 +102,6 @@ export default function App() {
     </div>
   );
 }
-
 {
   /*
 git add .
